@@ -1,6 +1,8 @@
 /* Header Styles */
 .header {
-	background: url(../img/home/header.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/home/header.jpg);
+	background-size: cover;
+	background-position: center;
 	height: 100vh;
 	position: relative;
 	width: 100%;
@@ -19,26 +21,5 @@
 }
 
 .header .header-content .header-text a {
-	color: var(--title-color-1);
 	font-size: var(--font-size-m);
-	position: relative;
-	transition: var(--transition);
-}
-
-.header .header-content .header-text a::before {
-	content: "";
-	background: var(--background-1);
-	bottom: 0;
-	height: 1.5px;
-	margin-top: 2px;
-	position: absolute;
-	opacity: 0;
-	transition: var(--transition);
-	width: 0;
-}
-
-.header .header-content .header-text a:hover::before {
-	opacity: 1;
-	transition: var(--transition);
-	width: 100%;
 }

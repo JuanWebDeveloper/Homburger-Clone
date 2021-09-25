@@ -111,3 +111,27 @@ h6 {
 	line-height: 1.375;
 	margin-top: 0;
 }
+
+a {
+	color: var(--title-color-1);
+	position: relative;
+	transition: var(--transition);
+}
+
+a::before {
+	content: "";
+	background: var(--background-1);
+	bottom: 0;
+	height: 1.5px;
+	margin-top: 2px;
+	position: absolute;
+	opacity: 0;
+	transition: var(--transition);
+	width: 0;
+}
+
+a:hover::before {
+	opacity: 1;
+	transition: var(--transition);
+	width: 100%;
+}
