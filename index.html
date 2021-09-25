@@ -20,96 +20,972 @@
 		<link rel="stylesheet" href="./css/home.css" />
 	</head>
 	<body>
-		<!-- Header -->
-		<header class="header">
-			<div class="header-content">
-				<!-- Space For Navigation Menu -->
-				<!-- <div></div> -->
+		<div id="__next">
+			<div id="app" class="container container--green">
+				<!--======== HEADER ========-->
+				<header class="navigation" id="navigation">
+					<div class="navigation__meta">
+						<div class="navigation__search">
+							<a href="/de/suche">
+								<svg version="1.1" x="0px" y="0px" viewBox="0 0 500 500">
+									<path
+										d="M494.9,470.2L357.5,332.8c-0.3-0.3-0.7-0.7-1.1-1c29.6-35.1,47.5-80.5,47.5-129.9C403.9,90.6,313.3,0,201.9,0S0,90.6,0,201.9s90.6,201.9,201.9,201.9c49.4,0,94.8-17.9,129.9-47.5c0.3,0.4,0.6,0.7,1,1.1l137.4,137.4c3.4,3.4,7.9,5.1,12.3,5.1c4.5,0,8.9-1.7,12.3-5.1C501.7,488.1,501.7,477,494.9,470.2z M201.9,369c-92.1,0-167.1-74.9-167.1-167s74.9-167,167.1-167s167,74.9,167,167S294.1,369,201.9,369z"
+									></path>
+								</svg>
+							</a>
+						</div>
+						<div class="navigation__lang"><a href="/en">EN</a></div>
+						<div class="navigation__hamburger" id="navigation__hamburger"><span class="navigation__hamburger__span"></span></div>
+					</div>
 
-				<div class="header-text">
-					<h2>
-						Lorem ipsum <br />
-						dolor sit.
-					</h2>
-					<a href="#" class="links">Lorem ipsum dolor sit.</a>
+					<div class="navigation__name">
+						<a href="/de">
+							<svg version="1.1" id="Ebene_1" x="0px" y="0px" viewBox="0 0 33 181.9">
+								<g id="Homburger_Blue_RGB" transform="translate(0 -0.1)">
+									<path id="Path_9268" d="M0,182v-2.2h11.4v-14.4H0v-2.2h25.6v2.2H13.4v14.4h12.2v2.2L0,182z"></path>
+									<path
+										id="Path_9269"
+										d="M26.2,149.2c0,1.3-0.2,2.5-0.7,3.7c-0.4,1-1.1,2-1.9,2.7c-0.9,0.8-2,1.3-3.1,1.7c-1.3,0.4-2.7,0.6-4,0.6 c-1.4,0-2.8-0.2-4.1-0.6c-1.1-0.4-2.2-1-3.1-1.7c-0.9-0.8-1.5-1.7-2-2.8c-0.5-1.1-0.7-2.4-0.7-3.6c0-1.2,0.2-2.5,0.7-3.6 c0.4-1,1.1-2,1.9-2.7c0.9-0.8,1.9-1.4,3.1-1.7c1.3-0.4,2.6-0.6,4-0.6c1.4,0,2.8,0.2,4.1,0.6c1.2,0.4,2.2,0.9,3.1,1.7 c0.9,0.7,1.6,1.7,2,2.8C26,146.7,26.2,147.9,26.2,149.2z M24.4,149.1c0-1-0.2-2-0.6-3c-0.4-0.8-1-1.5-1.7-2 c-0.8-0.5-1.6-0.9-2.6-1.2c-1-0.3-2.1-0.4-3.2-0.4c-1,0-2.1,0.1-3.1,0.4c-0.9,0.2-1.7,0.6-2.5,1.2c-0.7,0.5-1.3,1.2-1.7,2 c-0.9,1.9-0.9,4,0,5.9c0.4,0.8,1,1.5,1.7,2c0.8,0.5,1.6,0.9,2.5,1.2c1,0.3,2.1,0.4,3.1,0.4c1.1,0,2.1-0.1,3.1-0.4 c0.9-0.2,1.8-0.6,2.6-1.2c0.7-0.5,1.3-1.2,1.7-2C24.2,151.2,24.4,150.1,24.4,149.1L24.4,149.1z"
+									></path>
+									<path
+										id="Path_9270"
+										d="M7.1,135.4v-2.1h3c-1.1-0.8-2-1.8-2.7-3c-0.6-1-0.9-2-0.9-3.1c-0.1-1.2,0.3-2.4,1-3.4 c0.7-0.9,1.6-1.5,2.7-1.9c-1.1-0.8-2-1.8-2.7-3c-0.6-1.1-1-2.3-1-3.6c-0.1-1.5,0.4-3,1.4-4.2c1-1,2.5-1.5,4.6-1.5h13v2.1H13.4 c-0.8,0-1.6,0.1-2.4,0.3c-0.6,0.1-1.1,0.3-1.5,0.7c-0.4,0.3-0.7,0.7-0.8,1.2c-0.2,0.5-0.2,1.1-0.3,1.7c0,0.6,0.1,1.3,0.3,1.9 c0.2,0.8,0.6,1.5,1.2,2.1c0.5,0.6,1,1,1.7,1.4c0.7,0.4,1.5,0.6,2.2,0.6h11.8v2.1H13.4c-1.4-0.1-2.7,0.2-3.9,1 c-0.8,0.7-1.2,1.8-1.2,2.8c0,0.7,0.1,1.4,0.4,2.1c0.3,0.7,0.8,1.3,1.3,1.9l0.7,0.7c0.3,0.3,0.6,0.5,1,0.6c0.4,0.2,0.8,0.4,1.3,0.5 c0.5,0.1,1.1,0.2,1.7,0.2h10.9v2.1L7.1,135.4L7.1,135.4z"
+									></path>
+									<path
+										id="Path_9271"
+										d="M0,104.3v-2.1h9.9c-1-0.8-1.8-1.7-2.4-2.8c-0.6-1.1-0.9-2.4-0.9-3.7c0-1.2,0.2-2.4,0.7-3.5 c0.5-1,1.2-1.9,2.1-2.5c0.9-0.7,1.9-1.2,3-1.5c1.2-0.3,2.5-0.5,3.8-0.5c1.4,0,2.9,0.2,4.2,0.6c1.1,0.4,2.2,0.9,3.1,1.7 c0.8,0.7,1.5,1.6,2,2.6c0.5,1.1,0.7,2.2,0.7,3.4c0,1.1-0.3,2.2-0.7,3.3c-0.5,1.1-1.4,2.1-2.4,2.8h2.5v2.1H0V104.3z M17.1,102.2 c0.7,0,1.4,0,2.1-0.1c1.1-0.1,2.1-0.6,2.9-1.2c0.4-0.3,0.7-0.7,1-1.2c0.4-0.5,0.7-1.1,1-1.7c0.2-0.6,0.3-1.3,0.3-2 c0-0.8-0.1-1.7-0.4-2.4c-0.3-0.8-0.8-1.4-1.4-1.9c-0.7-0.6-1.6-1-2.5-1.3c-1.2-0.3-2.5-0.5-3.8-0.4c-1.3,0-2.6,0.2-3.8,0.5 c-0.9,0.3-1.7,0.7-2.4,1.3c-0.6,0.5-1,1.1-1.3,1.9c-0.3,0.7-0.4,1.4-0.4,2.1c0,0.7,0.1,1.3,0.3,2c0.2,0.7,0.5,1.3,1,1.8 c0.6,0.8,1.4,1.5,2.4,1.9c1.1,0.5,2.4,0.7,3.6,0.7L17.1,102.2L17.1,102.2z"
+									></path>
+									<path
+										id="Path_9272"
+										d="M7.1,82.9v-2.1h11.7c1.4,0.1,2.9-0.2,4.2-0.9c0.9-0.8,1.4-2,1.3-3.1c0-0.8-0.1-1.5-0.4-2.2 c-0.3-0.8-0.7-1.5-1.3-2.1c-0.6-0.6-1.2-1.2-1.9-1.6c-0.8-0.4-1.8-0.6-2.7-0.5H7.1v-2.1h18.5v2.1h-3c2.4,1.9,3.6,4.2,3.6,6.7 c0,2.1-0.6,3.6-1.7,4.5c-1.5,1-3.2,1.5-5,1.3L7.1,82.9L7.1,82.9z"
+									></path>
+									<path
+										id="Path_9273"
+										d="M7.1,62.7v-2.1h3c-1-0.7-1.8-1.6-2.4-2.6c-0.5-0.9-0.8-2-0.8-3v-0.7c0-0.3,0.1-0.4,0.1-0.7l2,0.3 c-0.1,0.4-0.1,0.8-0.1,1.2c0,0.7,0.1,1.3,0.3,1.9c0.3,0.7,0.7,1.3,1.2,1.9c0.5,0.6,1.1,1,1.7,1.3c0.8,0.4,1.6,0.6,2.4,0.5h11.1v2.1 L7.1,62.7L7.1,62.7z"
+									></path>
+									<path
+										id="Path_9274"
+										d="M27.6,49.1c1.1-0.2,2.1-0.8,2.7-1.7c0.7-1.2,1-2.6,0.9-4c0.1-1.6-0.4-3.3-1.5-4.5c-1-1-2.6-1.4-5-1.4H22 c1,0.7,1.9,1.6,2.5,2.7c0.6,1.1,0.9,2.4,0.9,3.7c0,1.2-0.2,2.4-0.8,3.5c-1,2-2.8,3.4-5,3.9c-1.1,0.3-2.3,0.5-3.5,0.4 c-1.3,0-2.6-0.2-3.9-0.6c-1.1-0.4-2.1-0.9-3-1.7c-0.8-0.7-1.5-1.6-1.9-2.6c-0.5-1.1-0.7-2.3-0.7-3.5c0-1.1,0.2-2.2,0.6-3.1 c0.5-1.2,1.4-2.2,2.4-2.9H7.1v-2.1h17.8c2.1-0.1,4.2,0.6,5.9,1.9c1.4,1.3,2.2,3.3,2.2,6c0,1-0.1,2-0.3,3c-0.2,0.8-0.5,1.6-0.9,2.4 c-0.4,0.7-1,1.2-1.7,1.7c-0.8,0.5-1.6,0.7-2.5,0.8L27.6,49.1L27.6,49.1z M15.7,37.3c-0.7,0-1.5,0-2.2,0.1c-0.6,0.1-1.1,0.2-1.6,0.4 c-0.5,0.2-0.9,0.4-1.2,0.8c-0.3,0.3-0.7,0.7-1,1.1c-0.9,1-1.3,2.3-1.2,3.7c0,0.8,0.1,1.7,0.4,2.4c0.3,0.7,0.7,1.4,1.3,1.9 c0.7,0.6,1.5,1,2.4,1.3c1.1,0.3,2.3,0.5,3.5,0.4c1.2,0,2.3-0.1,3.5-0.5c0.9-0.3,1.7-0.7,2.3-1.3c0.6-0.5,1-1.2,1.3-1.9 c0.3-0.7,0.4-1.4,0.4-2.1c0-0.7-0.1-1.3-0.3-2c-0.2-0.6-0.5-1.2-0.9-1.7c-0.6-0.8-1.4-1.5-2.4-1.9c-1.2-0.5-2.4-0.7-3.7-0.6 L15.7,37.3L15.7,37.3z"
+									></path>
+									<path
+										id="Path_9275"
+										d="M20.7,14.4c1.6,0.2,3,1.1,3.9,2.3c1.1,1.5,1.6,3.4,1.5,5.3c0.1,2.3-0.8,4.6-2.6,6.2c-2,1.6-4.5,2.3-7.1,2.2 c-1.5,0-2.9-0.2-4.3-0.6c-1.1-0.4-2.2-1-3.1-1.7c-0.8-0.7-1.5-1.6-1.9-2.6c-0.4-1.1-0.7-2.2-0.6-3.3c0-1.3,0.2-2.5,0.7-3.7 c0.4-1,1.1-1.8,1.9-2.4c0.8-0.7,1.8-1.1,2.8-1.4c1.2-0.3,2.3-0.4,3.5-0.4h1.3v14.3c1,0,2-0.1,3-0.4c0.9-0.2,1.7-0.6,2.4-1.2 c0.7-0.5,1.3-1.2,1.6-2c0.4-0.8,0.6-1.8,0.6-2.7c0-0.8-0.1-1.6-0.3-2.4c-0.1-0.6-0.3-1.2-0.6-1.7c-0.3-0.4-0.7-0.8-1.2-1 c-0.5-0.3-1-0.5-1.5-0.6L20.7,14.4L20.7,14.4z M15.1,16.2c-0.9,0-1.9,0.1-2.8,0.3c-0.8,0.2-1.5,0.5-2.2,1C9.5,18,9,18.6,8.7,19.4 c-0.3,0.8-0.5,1.7-0.5,2.6c-0.1,1.6,0.5,3.2,1.7,4.3c1.4,1.2,3.3,1.9,5.1,1.9L15.1,16.2L15.1,16.2z"
+									></path>
+									<path
+										id="Path_9276"
+										d="M7.1,9.2V7.1h3c-1-0.7-1.8-1.6-2.4-2.6c-0.6-0.9-0.8-2-0.8-3V0.8c0-0.3,0.1-0.4,0.1-0.7l2,0.3 C8.9,0.7,8.8,1.1,8.8,1.5c0,0.7,0.1,1.3,0.3,1.9c0.3,0.7,0.7,1.3,1.2,1.9c0.5,0.6,1.1,1,1.7,1.3c0.8,0.4,1.6,0.6,2.4,0.5h11.1v2.1 L7.1,9.2L7.1,9.2z"
+									></path>
+								</g>
+							</svg>
+						</a>
+					</div>
+
+					<div class="navigation__container">
+						<nav class="navigation__wrapper">
+							<ul class="navigation__menu">
+								<li><a class="" href="/de/expertise">Expertise</a></li>
+								<li><a class="" href="/de/team">Team</a></li>
+								<li><a class="" href="/de/ueber-uns">Über uns</a></li>
+								<li><a class="" href="/de/karriere">Karriere</a></li>
+								<li><a class="" href="/de/insights">Insights</a></li>
+							</ul>
+							<ul class="navigation__menu navigation__menu--small">
+								<li><a href="/de/aktuell">Aktuell</a></li>
+								<li><a href="/de/rankings-awards">Rankings &amp; Awards</a></li>
+								<li><a href="/de/alumni">Alumni</a></li>
+								<li><a href="/de/kontakt">Kontakt</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+
+				<!--======== LOGO ========-->
+				<div class="logo logo--normal" id="logo">
+					<a href="/de">
+						<svg version="1.1" viewBox="0 0 41 46.662">
+							<defs>
+								<linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+									<stop offset="0%" style="stop-color: rgba(215, 215, 215, 1); stop-opacity: 1"></stop>
+									<stop offset="100%" style="stop-color: rgba(215, 215, 215, 0); stop-opacity: 1"></stop>
+								</linearGradient>
+								<linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+									<stop offset="0%" style="stop-color: rgba(255, 255, 255, 1); stop-opacity: 1"></stop>
+									<stop offset="100%" style="stop-color: rgba(255, 255, 255, 0); stop-opacity: 1"></stop>
+								</linearGradient>
+							</defs>
+							<path d="M29.2,0V16.821H11.8V0H0V46.662H11.8V28.409H29.2V46.662H41V0Z"></path>
+						</svg>
+					</a>
 				</div>
-			</div>
-		</header>
 
-		<!-- Bulletin Section -->
-		<div class="bulletin-section">
-			<h2>Lorem, ipsum.</h2>
+				<!--======== MAIN ========-->
+				<main class="main" id="content">
+					<!--======== SECTION HERO ========-->
+					<section class="block-fullscreen block-fullscreen--hero">
+						<div class="block-fullscreen__image-wrapper">
+							<picture>
+								<source
+									media="(min-width:1440px)"
+									srcset="https://www.homburger.ch/api/ms/2021/07/w_3000,h_2000,c_fill/Homburger_Web_Bild_Startseite_018@2x.jpg"
+								/>
+								<source
+									srcset="
+										/api/ms/2021/07/w_1500,h_1000,c_fill/Homburger_Web_Bild_Startseite_018@2x.jpg                         1x,
+										https://www.homburger.ch/api/ms/2021/07/w_3000,h_2000,c_fill/Homburger_Web_Bild_Startseite_018@2x.jpg 2x
+									"
+								/>
+								<img
+									class="block-fullscreen__image is_desktop"
+									title="Homburger"
+									alt=""
+									src="https://www.homburger.ch/api/ms/2021/07/w_3000,h_2000,c_fill/Homburger_Web_Bild_Startseite_018@2x.jpg"
+									width="3000"
+									height="2000"
+									loading="lazy"
+								/>
+							</picture>
 
-			<div class="bulletin-section_content">
-				<div class="bulletin-container">
-					<div class="single-bulletin">
-						<div class="bulletin-image">
-							<img src="./img/home/bulletin.jpg" alt="Bulletin image" />
+							<picture>
+								<source media="(min-width:1440px)" srcset="/api/ms/2021/07/w_2000,h_2000,c_fill/Homburger_Web_Bild_Startseite_Mobile_018@2x.jpg" />
+								<source
+									srcset="
+										/api/ms/2021/07/w_1000,h_1000,c_fill/Homburger_Web_Bild_Startseite_Mobile_018@2x.jpg 1x,
+										/api/ms/2021/07/w_2000,h_2000,c_fill/Homburger_Web_Bild_Startseite_Mobile_018@2x.jpg 2x
+									"
+								/>
+								<img
+									class="block-fullscreen__image is_mobile"
+									title="Homburger"
+									alt=""
+									src="/api/ms/2021/07/w_2000,h_2000,c_fill/Homburger_Web_Bild_Startseite_Mobile_018@2x.jpg"
+									width="2000"
+									height="2000"
+									loading="lazy"
+								/>
+							</picture>
 						</div>
-						<div class="bulletin-text">
-							<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, natus!</h3>
-							<div class="authors">
-								<a href="#" class="links">Lorem dolor,</a>
-								<a href="#" class="links">Lorem ipsum,</a>
-								<a href="#" class="links">Lorem elit</a>
+
+						<div class="block-fullscreen__content">
+							<div class="grid-margin">
+								<div class="cell small-10 medium-8 large-5">
+									<h3 class="block-fullscreen__title">
+										Swiss core<br />
+										global scope
+									</h3>
+									<div class="block-rich-text block-fullscreen__subtitle">
+										<p><a href="https://www.homburger.ch/de/ueber-uns/">Homburger auf einen Blick</a></p>
+									</div>
+								</div>
 							</div>
-							<p class="date">septiembre 13, 2021</p>
-							<p class="time"><i class="far fa-clock"></i> 3 minutes</p>
+						</div>
+					</section>
+
+					<!--======== SECTION BULLETINS ========-->
+					<section class="bulletins">
+						<div class="bulletins__title grid-margin align-center">
+							<div class="cell small-12 large-10 text-center"><h3>Neuste Bulletins</h3></div>
+						</div>
+
+						<div class="grid-margin align-center bulletins__container">
+							<div class="cell small-12 large-10">
+								<div class="bulletins__wrapper">
+									<div class="bulletin-teaser">
+										<article class="bulletin-teaser__wrapper">
+											<a href="/de/insights/covid-zertifikat-am-arbeitsplatz">
+												<img
+													class="bulletin-teaser__icon"
+													title="Homburger Bulletin"
+													alt=""
+													src="https://www.homburger.ch/api/ms/2021/01/w_3000,h_1500,c_fill/RZ_Web_COVID_Home-Office_01_final.jpg"
+													width="1000"
+													height="1000"
+													srcset="
+														/api/ms/2021/01/w_70,h_70,c_fill/RZ_Preview_COVID_Home_Office_final.jpg                            1440w,
+														https://www.homburger.ch/api/ms/2021/01/w_3000,h_1500,c_fill/RZ_Web_COVID_Home-Office_01_final.jpg 1920w
+													"
+													loading="lazy"
+												/>
+											</a>
+
+											<div class="bulletin-teaser__content">
+												<a href="/de/insights/covid-zertifikat-am-arbeitsplatz">
+													<h3 class="bulletin-teaser__title">Covid-Zertifikat <br />am Arbeitsplatz</h3>
+												</a>
+												<div class="bulletin-teaser__meta">
+													<div class="bulletin-teaser__authors">
+														<a class="link link--small" href="/de/team/gregor-buhler">Gregor Bühler</a>
+														<a class="link link--small" href="/de/team/andreas-muller">Andreas Müller</a><span class="authors__br"><br /></span>
+														<a class="link link--small" href="/de/team/balz-gross">Balz Gross</a>
+														<a class="link link--small" href="/de/team/jeremy-reichlin">Jeremy Reichlin</a>
+													</div>
+													<time class="bulletin-teaser__date label">13. September 2021</time>
+													<div class="bulletin-teaser__time label">
+														<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 11 11">
+															<g transform="translate(-1.5 -1.5)">
+																<circle cx="5" cy="5" r="5" transform="translate(2 2)" fill="none"></circle>
+																<path d="M12,6V9l2,1" transform="translate(-5 -2)" fill="none"></path>
+															</g>
+														</svg>
+														2 minutes
+													</div>
+												</div>
+											</div>
+										</article>
+									</div>
+
+									<div class="bulletin-teaser">
+										<article class="bulletin-teaser__wrapper">
+											<a href="/de/insights/covid-zertifikat-am-arbeitsplatz">
+												<img
+													class="bulletin-teaser__icon"
+													title="Homburger Bulletin"
+													alt=""
+													src="https://www.homburger.ch/api/ms/2021/01/w_3000,h_1500,c_fill/RZ_Web_COVID_Home-Office_01_final.jpg"
+													width="1000"
+													height="1000"
+													srcset="
+														/api/ms/2021/01/w_70,h_70,c_fill/RZ_Preview_COVID_Home_Office_final.jpg                            1440w,
+														https://www.homburger.ch/api/ms/2021/01/w_3000,h_1500,c_fill/RZ_Web_COVID_Home-Office_01_final.jpg 1920w
+													"
+													loading="lazy"
+												/>
+											</a>
+
+											<div class="bulletin-teaser__content">
+												<a href="/de/insights/covid-zertifikat-am-arbeitsplatz">
+													<h3 class="bulletin-teaser__title">Covid-Zertifikat <br />am Arbeitsplatz</h3>
+												</a>
+												<div class="bulletin-teaser__meta">
+													<div class="bulletin-teaser__authors">
+														<a class="link link--small" href="/de/team/gregor-buhler">Gregor Bühler</a>
+														<a class="link link--small" href="/de/team/andreas-muller">Andreas Müller</a><span class="authors__br"><br /></span>
+														<a class="link link--small" href="/de/team/balz-gross">Balz Gross</a>
+														<a class="link link--small" href="/de/team/jeremy-reichlin">Jeremy Reichlin</a>
+													</div>
+													<time class="bulletin-teaser__date label">13. September 2021</time>
+													<div class="bulletin-teaser__time label">
+														<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 11 11">
+															<g transform="translate(-1.5 -1.5)">
+																<circle cx="5" cy="5" r="5" transform="translate(2 2)" fill="none"></circle>
+																<path d="M12,6V9l2,1" transform="translate(-5 -2)" fill="none"></path>
+															</g>
+														</svg>
+														2 minutes
+													</div>
+												</div>
+											</div>
+										</article>
+									</div>
+
+									<div class="element-seperator"><hr /></div>
+
+									<div class="bulletin-teaser">
+										<article class="bulletin-teaser__wrapper">
+											<a href="/de/insights/covid-zertifikat-am-arbeitsplatz">
+												<img
+													class="bulletin-teaser__icon"
+													title="Homburger Bulletin"
+													alt=""
+													src="https://www.homburger.ch/api/ms/2021/01/w_3000,h_1500,c_fill/RZ_Web_COVID_Home-Office_01_final.jpg"
+													width="1000"
+													height="1000"
+													srcset="
+														/api/ms/2021/01/w_70,h_70,c_fill/RZ_Preview_COVID_Home_Office_final.jpg                            1440w,
+														https://www.homburger.ch/api/ms/2021/01/w_3000,h_1500,c_fill/RZ_Web_COVID_Home-Office_01_final.jpg 1920w
+													"
+													loading="lazy"
+												/>
+											</a>
+
+											<div class="bulletin-teaser__content">
+												<a href="/de/insights/covid-zertifikat-am-arbeitsplatz">
+													<h3 class="bulletin-teaser__title">Covid-Zertifikat <br />am Arbeitsplatz</h3>
+												</a>
+												<div class="bulletin-teaser__meta">
+													<div class="bulletin-teaser__authors">
+														<a class="link link--small" href="/de/team/gregor-buhler">Gregor Bühler</a>
+														<a class="link link--small" href="/de/team/andreas-muller">Andreas Müller</a><span class="authors__br"><br /></span>
+														<a class="link link--small" href="/de/team/balz-gross">Balz Gross</a>
+														<a class="link link--small" href="/de/team/jeremy-reichlin">Jeremy Reichlin</a>
+													</div>
+													<time class="bulletin-teaser__date label">13. September 2021</time>
+													<div class="bulletin-teaser__time label">
+														<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 11 11">
+															<g transform="translate(-1.5 -1.5)">
+																<circle cx="5" cy="5" r="5" transform="translate(2 2)" fill="none"></circle>
+																<path d="M12,6V9l2,1" transform="translate(-5 -2)" fill="none"></path>
+															</g>
+														</svg>
+														2 minutes
+													</div>
+												</div>
+											</div>
+										</article>
+									</div>
+
+									<div class="bulletin-teaser">
+										<article class="bulletin-teaser__wrapper">
+											<a href="/de/insights/covid-zertifikat-am-arbeitsplatz">
+												<img
+													class="bulletin-teaser__icon"
+													title="Homburger Bulletin"
+													alt=""
+													src="https://www.homburger.ch/api/ms/2021/01/w_3000,h_1500,c_fill/RZ_Web_COVID_Home-Office_01_final.jpg"
+													width="1000"
+													height="1000"
+													srcset="
+														/api/ms/2021/01/w_70,h_70,c_fill/RZ_Preview_COVID_Home_Office_final.jpg                            1440w,
+														https://www.homburger.ch/api/ms/2021/01/w_3000,h_1500,c_fill/RZ_Web_COVID_Home-Office_01_final.jpg 1920w
+													"
+													loading="lazy"
+												/>
+											</a>
+
+											<div class="bulletin-teaser__content">
+												<a href="/de/insights/covid-zertifikat-am-arbeitsplatz">
+													<h3 class="bulletin-teaser__title">Covid-Zertifikat <br />am Arbeitsplatz</h3>
+												</a>
+												<div class="bulletin-teaser__meta">
+													<div class="bulletin-teaser__authors">
+														<a class="link link--small" href="/de/team/gregor-buhler">Gregor Bühler</a>
+														<a class="link link--small" href="/de/team/andreas-muller">Andreas Müller</a><span class="authors__br"><br /></span>
+														<a class="link link--small" href="/de/team/balz-gross">Balz Gross</a>
+														<a class="link link--small" href="/de/team/jeremy-reichlin">Jeremy Reichlin</a>
+													</div>
+													<time class="bulletin-teaser__date label">13. September 2021</time>
+													<div class="bulletin-teaser__time label">
+														<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 11 11">
+															<g transform="translate(-1.5 -1.5)">
+																<circle cx="5" cy="5" r="5" transform="translate(2 2)" fill="none"></circle>
+																<path d="M12,6V9l2,1" transform="translate(-5 -2)" fill="none"></path>
+															</g>
+														</svg>
+														2 minutes
+													</div>
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-margin align-center">
+							<div class="cell small-12 large-10">
+								<div class="bulletins__link text-center">
+									<a class="more-link" href="/de/bulletins">
+										<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+											<line id="Line_61" data-name="Line 61" y2="32" transform="translate(16)" fill="none"></line>
+											<line id="Line_62" data-name="Line 62" y2="32" transform="translate(32 16) rotate(90)" fill="none"></line>
+										</svg>
+										<span class="more-link__text">mehr erfahren</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!--======== SECTION AKTUUELL ========-->
+					<section class="ndcs">
+						<div class="ndcs__title grid-margin align-center">
+							<div class="cell small-12 large-10 text-center"><h3>Aktuell</h3></div>
+						</div>
+
+						<div class="grid-margin align-center ndcs__container">
+							<div class="cell small-12 large-10">
+								<div class="ndcs__wrapper">
+									<div class="ndc-teaser ndc-teaser--odd">
+										<article>
+											<span class="ndc-teaser__link">
+												<span>
+													<img class="ndc-teaser__image" src="https://www.homburger.ch/img/default-news.png" alt="news" loading="lazy" />
+												</span>
+												<h3 class="ndc-teaser__title">Mock-Interviews bei Homburger</h3>
+											</span>
+											<span class="ndc-teaser__cat label">News</span>
+											<time class="ndc-teaser__date label">20. September 2021</time>
+										</article>
+									</div>
+
+									<div class="ndc-teaser ndc-teaser--odd">
+										<article>
+											<span class="ndc-teaser__link">
+												<span>
+													<img class="ndc-teaser__image" src="https://www.homburger.ch/img/default-deals_cases.png" alt="news" loading="lazy" />
+												</span>
+												<h3 class="ndc-teaser__title">Mock-Interviews bei Homburger</h3>
+											</span>
+											<span class="ndc-teaser__cat label">News</span>
+											<time class="ndc-teaser__date label">20. September 2021</time>
+										</article>
+									</div>
+
+									<div class="ndc-teaser ndc-teaser--odd">
+										<article>
+											<span class="ndc-teaser__link">
+												<span>
+													<img class="ndc-teaser__image" src="https://www.homburger.ch/img/default-news.png" alt="news" loading="lazy" />
+												</span>
+												<h3 class="ndc-teaser__title">Mock-Interviews bei Homburger</h3>
+											</span>
+											<span class="ndc-teaser__cat label">News</span>
+											<time class="ndc-teaser__date label">20. September 2021</time>
+										</article>
+									</div>
+
+									<div class="element-seperator"><hr /></div>
+
+									<div class="ndc-teaser ndc-teaser--odd">
+										<article>
+											<span class="ndc-teaser__link">
+												<span>
+													<img class="ndc-teaser__image" src="https://www.homburger.ch/img/default-news.png" alt="news" loading="lazy" />
+												</span>
+												<h3 class="ndc-teaser__title">Mock-Interviews bei Homburger</h3>
+											</span>
+											<span class="ndc-teaser__cat label">News</span>
+											<time class="ndc-teaser__date label">20. September 2021</time>
+										</article>
+									</div>
+
+									<div class="ndc-teaser ndc-teaser--odd">
+										<article>
+											<span class="ndc-teaser__link">
+												<span>
+													<img class="ndc-teaser__image" src="https://www.homburger.ch/img/default-deals_cases.png" alt="news" loading="lazy" />
+												</span>
+												<h3 class="ndc-teaser__title">Mock-Interviews bei Homburger</h3>
+											</span>
+											<span class="ndc-teaser__cat label">News</span>
+											<time class="ndc-teaser__date label">20. September 2021</time>
+										</article>
+									</div>
+
+									<div class="ndc-teaser ndc-teaser--even">
+										<article>
+											<span class="ndc-teaser__link">
+												<img
+													class="ndc-teaser__image"
+													title="Paragon"
+													alt=""
+													src="https://cms.homburger.ch/wp-content/uploads/2021/09/Paragon_bw.png"
+													width="640"
+													height="140"
+													loading="lazy"
+												/>
+												<h3 class="ndc-teaser__title">
+													Homburger advised Paragon Partners GmbH in connection with the financing aspects of the acquisition of Sovendus GmbH
+												</h3>
+											</span>
+											<span class="ndc-teaser__cat label">Deals &amp; Cases</span>
+											<time class="ndc-teaser__date label">15. September 2021</time>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-margin align-center">
+							<div class="cell small-12 large-10">
+								<div class="ndcs__link text-center">
+									<a class="more-link" href="/de/aktuell">
+										<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+											<line id="Line_61" data-name="Line 61" y2="32" transform="translate(16)" fill="none"></line>
+											<line id="Line_62" data-name="Line 62" y2="32" transform="translate(32 16) rotate(90)" fill="none"></line>
+										</svg>
+										<span class="more-link__text">mehr erfahren</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!--======== SECTION CLIENTS ========-->
+					<section class="expertise-list">
+						<div class="grid-margin">
+							<div class="cell small-10 medium-8 large-6 xlarge-5"><h2 class="expertise-list__title">For our clients. With all our efforts.</h2></div>
+						</div>
+						<div class="expertise-list__container grid-margin">
+							<div class="cell small-12">
+								<div class="swiper-container swiper__container--initialized swiper__container--horizontal">
+									<div class="swiper-pagination swiper-pagination-clickable swiper__pagination--bullets swiper-pagination-lock">
+										<span class="swiper__pagination__bullet swiper__pagination__bullet--active"></span>
+									</div>
+
+									<div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px)">
+										<div class="swiper-slide swiper-slide-active" style="width: 552.5px; margin-right: 30px">
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Arbeitsrecht"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Arbeitsrecht-2.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Arbeitsrecht und Vergütung für Führungskräfte</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="ChineseDesk"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_ChineseDesk-1.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">China Focus Group</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Compliance"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Compliance.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Compliance</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Corporate_Governance"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Corporate_Governance.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Corporate Governance</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Datenschutz"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Datenschutz.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Datenschutz</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Finanzierungen_Produkte"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Finanzierungen_Produkte.svg"
+														width="0"
+														height="0"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Finanzierungen und Anlageprodukte</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Finanzmarktrecht"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Finanzmarktrecht.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Finanzmarktrecht</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Gesellschaftsrecht"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Gesellschaftsrecht.svg"
+														width="0"
+														height="0"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Gesellschaftsrecht / M&amp;A</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Immobilien"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Immobilien-1.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Immobilien</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Expertise_IP_IT"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_IP_IT.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">IP / IT</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Kapitalmarkt"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Kapitalmarkt.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Kapitalmarkt</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Krisenmanagement"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Krisenmanagement.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Krisenmanagement</span>
+												</a>
+											</div>
+										</div>
+
+										<div class="swiper-slide swiper-slide-next" style="width: 552.5px; margin-right: 30px">
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_PrivateClients"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_PrivateClients.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Private Clients</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Prozesse"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Prozesse.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Prozesse</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Regulierung"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Regulierung.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Regulierung</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Restrukturierung_Insolvenz"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Restrukturierung_Insolvenz.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Restrukturierungen / Insolvenz</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Schiedsgerichtbarkeit"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Schiedsgerichtbarkeit.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Schiedsgerichtsbarkeit</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Steuern"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Steuern-1.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Steuern</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Technologie"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Technologie.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Technologie und Digitalisierung</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Untersuchungen_"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Untersuchungen.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Untersuchungen</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Versicherungen"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Versicherungen.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Versicherungen</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Wettbewerb"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Wettbewerb.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Wettbewerb</span>
+												</a>
+											</div>
+
+											<div class="expertise-teaser">
+												<a href="" class="expertise-teaser__link">
+													<img
+														class="expertise-teaser__icon"
+														title="Homburger_Web_Icon_Expertise_Wirtschaftsstrafrecht"
+														alt=""
+														src="https://cms.homburger.ch/wp-content/uploads/2020/09/Homburger_Web_Icon_Expertise_Wirtschaftsstrafrecht.svg"
+														width="50"
+														height="50"
+														loading="lazy"
+													/>
+													<span class="expertise-teaser__text">Wirtschaftsstrafrecht</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!--======== SECTION BANNER ========-->
+					<section class="block-fullscreen">
+						<a href="/de/newsletter-anmeldung/" target="">
+							<div class="block-fullscreen__image-wrapper">
+								<picture>
+									<source
+										media="(min-width:1440px)"
+										srcset="https://www.homburger.ch/api/ms/2020/10/w_3000,h_1500,c_fill/Homburger_Web_Bild_Breaker_007@2x.jpg"
+									/>
+									<source
+										srcset="
+											/api/ms/2020/10/w_1500,h_750,c_fill/Homburger_Web_Bild_Breaker_007@2x.jpg                          1x,
+											https://www.homburger.ch/api/ms/2020/10/w_3000,h_1500,c_fill/Homburger_Web_Bild_Breaker_007@2x.jpg 2x
+										"
+									/>
+									<img
+										class="block-fullscreen__image is_desktop"
+										title="Homburger Newsletter"
+										alt=""
+										src="https://www.homburger.ch/api/ms/2020/10/w_3000,h_1500,c_fill/Homburger_Web_Bild_Breaker_007@2x.jpg"
+										width="2560"
+										height="1280"
+										loading="lazy"
+									/>
+								</picture>
+
+								<picture>
+									<source media="(min-width:1440px)" srcset="/api/ms/2020/10/w_1024,h_1024,c_fill/Homburger_Web_Bild_Breaker_Mobile_007@2x.jpg" />
+									<source
+										srcset="
+											/api/ms/2020/10/w_512,h_512,c_fill/Homburger_Web_Bild_Breaker_Mobile_007@2x.jpg   1x,
+											/api/ms/2020/10/w_1024,h_1024,c_fill/Homburger_Web_Bild_Breaker_Mobile_007@2x.jpg 2x
+										"
+									/>
+									<img
+										class="block-fullscreen__image is_mobile"
+										title="Homburger Newsletter"
+										alt=""
+										src="/api/ms/2020/10/w_1024,h_1024,c_fill/Homburger_Web_Bild_Breaker_Mobile_007@2x.jpg"
+										width="2000"
+										height="2000"
+										loading="lazy"
+									/>
+								</picture>
+							</div>
+
+							<div class="block-fullscreen__content">
+								<div class="grid-margin">
+									<div class="cell small-10 medium-8 large-5">
+										<h3 class="block-fullscreen__title">
+											Homburger<br />
+											Newsletter
+										</h3>
+										<span class="link link--arrow link--white">zur Anmeldung</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</section>
+				</main>
+
+				<!--======== FOOTER ========-->
+				<footer class="footer">
+					<div class="footer__top grid-margin">
+						<div class="cell small-6">
+							<nav>
+								<ul class="footer__menu">
+									<li><a href="/de/aktuell">Aktuell</a></li>
+									<li><a href="/de/rankings-awards">Rankings &amp; Awards</a></li>
+									<li><a href="/de/alumni">Alumni</a></li>
+									<li><a href="/de/kontakt">Kontakt</a></li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="footer__contact cell small-6">
+							<p>
+								<a href="tel:+41 43 222 10 00" target="_blank" rel="noreferrer">+41 43 222 10 00</a><br />
+								<a href="mailto:lawyers@homburger.ch" target="_blank" rel="noreferrer">lawyers@homburger.ch</a><br />
+								<a href="https://www.homburger.ch/de/newsletter-anmeldung/" target="">Newsletter</a><br />
+								<a href="https://ch.linkedin.com/company/homburger" target="_blank" rel="noreferrer">LinkedIn</a><br />
+							</p>
+							<address class="">
+								Homburger AG<br />
+								Prime Tower<br />
+								Hardstrasse 201<br />
+								8005 Zürich
+							</address>
+							<p><a href="https://www.google.com/maps/search/?api=1&amp;query=Homburger+AG" target="_blank" rel="noreferrer">Karte</a><br /></p>
 						</div>
 					</div>
 
-					<div class="single-bulletin">
-						<div class="bulletin-image">
-							<img src="./img/home/bulletin.jpg" alt="Bulletin image" />
+					<div class="footer__bottom grid-margin">
+						<div class="cell">
+							<ul class="footer__submenu">
+								<li><a href="/de/haftungsausschluss">Haftungsausschluss</a></li>
+								<li><a href="/de/datenschutz">Datenschutzerklärung</a></li>
+							</ul>
 						</div>
-						<div class="bulletin-text">
-							<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, natus!</h3>
-							<div class="authors">
-								<a href="#" class="links">Lorem dolor,</a>
-								<a href="#" class="links">Lorem ipsum,</a>
-								<a href="#" class="links">Lorem elit</a>
+						<div class="cell small-shrink">
+							<div class="footer__logo">
+								<a href="/de">
+									<svg version="1.1" viewBox="0 0 41 46.662">
+										<defs>
+											<linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+												<stop offset="0%" style="stop-color: rgba(215, 215, 215, 1); stop-opacity: 1"></stop>
+												<stop offset="100%" style="stop-color: rgba(215, 215, 215, 0); stop-opacity: 1"></stop>
+											</linearGradient>
+										</defs>
+										<path d="M29.2,0V16.821H11.8V0H0V46.662H11.8V28.409H29.2V46.662H41V0Z"></path>
+									</svg>
+								</a>
 							</div>
-							<p class="date">septiembre 13, 2021</p>
-							<p class="time"><i class="far fa-clock"></i> 3 minutes</p>
 						</div>
 					</div>
-				</div>
-				<hr />
-				<div class="bulletin-container">
-					<div class="single-bulletin">
-						<div class="bulletin-image">
-							<img src="./img/home/bulletin.jpg" alt="Bulletin image" />
-						</div>
-						<div class="bulletin-text">
-							<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, natus!</h3>
-							<div class="authors">
-								<a href="#" class="links">Lorem dolor,</a>
-								<a href="#" class="links">Lorem ipsum,</a>
-								<a href="#" class="links">Lorem elit</a>
-							</div>
-							<p class="date">septiembre 13, 2021</p>
-							<p class="time"><i class="far fa-clock"></i> 3 minutes</p>
-						</div>
-					</div>
-					<div class="single-bulletin">
-						<div class="bulletin-image">
-							<img src="./img/home/bulletin.jpg" alt="Bulletin image" />
-						</div>
-						<div class="bulletin-text">
-							<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, natus!</h3>
-							<div class="authors">
-								<a href="#" class="links">Lorem dolor,</a>
-								<a href="#" class="links">Lorem ipsum,</a>
-								<a href="#" class="links">Lorem elit</a>
-							</div>
-							<p class="date">septiembre 13, 2021</p>
-							<p class="time"><i class="far fa-clock"></i> 3 minutes</p>
-						</div>
-					</div>
-				</div>
-
-				<a href="#" class="plus-bolletins"><i class="fal fa-plus"></i></a>
+				</footer>
 			</div>
 		</div>
+
+		<script src="./js/main.js"></script>
 	</body>
 </html>
