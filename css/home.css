@@ -8,18 +8,18 @@
 	width: 100%;
 }
 
-.header .header-content {
+.header-content {
 	position: relative;
 	padding: 45px 48px;
 	width: 100%;
 }
 
-.header .header-content .header-text h2 {
+.header-text h2 {
 	color: var(--title-color-2);
 	font-size: var(--font-size-xl);
 	margin-bottom: var(--spacing-m);
 }
 
-.header .header-content .header-text a {
+.header-text a {
 	font-size: var(--font-size-m);
 }
