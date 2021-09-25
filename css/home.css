@@ -38,9 +38,9 @@
 }
 
 .bulletin-section_content {
-	left: 5%;
+	left: 10%;
 	position: relative;
-	width: 90%;
+	width: 80%;
 	text-align: center;
 }
 
@@ -56,7 +56,6 @@
 	display: flex;
 	justify-content: space-between;
 	margin-top: var(--spacing-l);
-	padding: 0 var(--spacing-m);
 	position: relative;
 	text-align: left;
 	width: 100%;
@@ -65,6 +64,7 @@
 .single-bulletin {
 	display: flex;
 	width: 50%;
+	padding: 0 var(--spacing-m);
 	margin-bottom: var(--spacing-l);
 }
 
