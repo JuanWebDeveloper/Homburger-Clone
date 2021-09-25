@@ -1,0 +1,44 @@
+/* Header Styles */
+.header {
+	background: url(../img/home/header.jpg);
+	height: 100vh;
+	position: relative;
+	width: 100%;
+}
+
+.header .header-content {
+	position: relative;
+	padding: 45px 48px;
+	width: 100%;
+}
+
+.header .header-content .header-text h2 {
+	color: var(--title-color-2);
+	font-size: var(--font-size-xl);
+	margin-bottom: var(--spacing-m);
+}
+
+.header .header-content .header-text a {
+	color: var(--title-color-1);
+	font-size: var(--font-size-m);
+	position: relative;
+	transition: var(--transition);
+}
+
+.header .header-content .header-text a::before {
+	content: "";
+	background: var(--background-1);
+	bottom: 0;
+	height: 1.5px;
+	margin-top: 2px;
+	position: absolute;
+	opacity: 0;
+	transition: var(--transition);
+	width: 0;
+}
+
+.header .header-content .header-text a:hover::before {
+	opacity: 1;
+	transition: var(--transition);
+	width: 100%;
+}

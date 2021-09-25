@@ -74,6 +74,7 @@
 
 /* Color Variables And Transitions */
 :root {
+	--background-1: #c00d1e;
 	--title-color-1: #c00d1e;
 	--title-color-2: #ffff;
 	--button-color: #c00d1e;
