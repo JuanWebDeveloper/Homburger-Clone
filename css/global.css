@@ -112,13 +112,13 @@ h6 {
 	margin-top: 0;
 }
 
-a {
+.links {
 	color: var(--title-color-1);
 	position: relative;
 	transition: var(--transition);
 }
 
-a::before {
+.links::before {
 	content: "";
 	background: var(--background-1);
 	bottom: 0;
@@ -130,7 +130,7 @@ a::before {
 	width: 0;
 }
 
-a:hover::before {
+.links:hover::before {
 	opacity: 1;
 	transition: var(--transition);
 	width: 100%;
