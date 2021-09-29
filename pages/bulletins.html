@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>KUNSTMANN SPIESS</title>
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+		<!-- Icons -->
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+	<body>
+		<div id="__next">
+			<div id="app" class="container container--red">
+				<!--======== HEADER ========-->
+				<header class="navigation" id="navigation">
+					<div class="navigation__meta">
+						<div class="navigation__search">
+							<a href="#">
+								<svg version="1.1" x="0px" y="0px" viewBox="0 0 500 500">
+									<path
+										d="M494.9,470.2L357.5,332.8c-0.3-0.3-0.7-0.7-1.1-1c29.6-35.1,47.5-80.5,47.5-129.9C403.9,90.6,313.3,0,201.9,0S0,90.6,0,201.9s90.6,201.9,201.9,201.9c49.4,0,94.8-17.9,129.9-47.5c0.3,0.4,0.6,0.7,1,1.1l137.4,137.4c3.4,3.4,7.9,5.1,12.3,5.1c4.5,0,8.9-1.7,12.3-5.1C501.7,488.1,501.7,477,494.9,470.2z M201.9,369c-92.1,0-167.1-74.9-167.1-167s74.9-167,167.1-167s167,74.9,167,167S294.1,369,201.9,369z"
+									></path>
+								</svg>
+							</a>
+						</div>
+						<div class="navigation__lang"><a href="#">DE</a></div>
+						<div class="navigation__hamburger" id="navigation__hamburger"><span class="navigation__hamburger__span"></span></div>
+					</div>
+					<div class="navigation__name">
+						<a href="#">
+							<svg width="210" height="3010" viewBox="0 0 210 3010" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M97.953 107.248L56.769 149.008V202H35.457V0.399986H56.769V122.224L175.137 0.399986H199.617L112.353 91.696L205.665 202H180.321L97.953 107.248ZM105.001 554.728C78.8891 554.728 58.5371 547.24 43.9451 532.264C29.3531 517.288 22.0571 495.496 22.0571 466.888V351.4H43.3691V466.024C43.3691 489.448 48.6491 506.92 59.2091 518.44C69.7691 529.96 85.0331 535.72 105.001 535.72C125.161 535.72 140.521 529.96 151.081 518.44C161.641 506.92 166.921 489.448 166.921 466.024V351.4H187.657V466.888C187.657 495.496 180.361 517.288 165.769 532.264C151.369 547.24 131.113 554.728 105.001 554.728ZM189.171 702.4V904H171.603L42.0034 740.416V904H20.6914V702.4H38.2594L168.147 865.984V702.4H189.171ZM104.822 1256.73C89.8463 1256.73 75.4463 1254.33 61.6223 1249.53C47.9903 1244.73 37.4303 1238.39 29.9423 1230.52L38.2943 1214.1C45.5903 1221.4 55.2863 1227.35 67.3823 1231.96C79.4783 1236.38 91.9583 1238.58 104.822 1238.58C122.87 1238.58 136.406 1235.32 145.43 1228.79C154.454 1222.07 158.966 1213.43 158.966 1202.87C158.966 1194.81 156.47 1188.38 151.478 1183.58C146.678 1178.78 140.726 1175.13 133.622 1172.63C126.518 1169.94 116.63 1167.06 103.958 1163.99C88.7903 1160.15 76.6943 1156.5 67.6703 1153.05C58.6463 1149.4 50.8703 1143.93 44.3423 1136.63C38.0063 1129.34 34.8383 1119.45 34.8383 1106.97C34.8383 1096.79 37.5263 1087.58 42.9023 1079.32C48.2783 1070.87 56.5343 1064.15 67.6703 1059.16C78.8063 1054.17 92.6303 1051.67 109.142 1051.67C120.662 1051.67 131.894 1053.3 142.838 1056.57C153.974 1059.64 163.574 1063.96 171.638 1069.53L164.438 1086.52C155.99 1080.95 146.966 1076.82 137.366 1074.14C127.766 1071.26 118.358 1069.82 109.142 1069.82C91.4783 1069.82 78.1343 1073.27 69.1103 1080.18C60.2783 1086.9 55.8623 1095.64 55.8623 1106.39C55.8623 1114.46 58.2623 1120.98 63.0623 1125.98C68.0543 1130.78 74.1983 1134.52 81.4943 1137.21C88.9823 1139.7 98.9663 1142.49 111.446 1145.56C126.23 1149.21 138.134 1152.86 147.158 1156.5C156.374 1159.96 164.15 1165.34 170.486 1172.63C176.822 1179.74 179.99 1189.43 179.99 1201.72C179.99 1211.9 177.206 1221.21 171.638 1229.66C166.262 1237.91 157.91 1244.54 146.582 1249.53C135.254 1254.33 121.334 1256.73 104.822 1256.73ZM94.3125 1422.83H23.4645V1404.4H186.473V1422.83H115.625V1606H94.3125V1422.83ZM209.677 1755.4V1957H189.229V1795.72L110.029 1931.37H99.9488L20.7488 1796.58V1957H0.300752V1755.4H17.8688L105.421 1904.87L192.109 1755.4H209.677ZM161.045 2254.14H48.7253L24.5333 2308H2.35725L94.5173 2106.4H115.541L207.701 2308H185.237L161.045 2254.14ZM153.269 2236.86L104.885 2128.58L56.5013 2236.86H153.269ZM189.171 2457.4V2659H171.603L42.0034 2495.42V2659H20.6914V2457.4H38.2594L168.147 2620.98V2457.4H189.171ZM189.171 2808.4V3010H171.603L42.0034 2846.42V3010H20.6914V2808.4H38.2594L168.147 2971.98V2808.4H189.171Z"
+									fill="#C00D1E"
+								/>
+							</svg>
+						</a>
+					</div>
+					<div class="navigation__container">
+						<nav class="navigation__wrapper">
+							<ul class="navigation__menu">
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Lorem ipsum</a></li>
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Lorem</a></li>
+							</ul>
+							<ul class="navigation__menu navigation__menu--small">
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Lorem &amp; ipsum</a></li>
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Lorem</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+
+				<!--======== LOGO ========-->
+				<div class="logo logo--normal" id="logo">
+					<a href="#">
+						<img src="../img/logo.png" class="logo--normal" alt="" />
+						<img src="../img/logo-active.png" class="logo--active" alt="" />
+					</a>
+				</div>
+
+				<!--======== MAIN ========-->
+				<main class="main" id="content">
+					<div class="bulletin">
+						<!--======== SECTION HERO ========-->
+						<section class="block-fullscreen block-fullscreen--hero">
+							<div class="block-fullscreen__image-wrapper">
+								<picture>
+									<source media="(min-width:1440px)" srcset="../img/bulletins/header.jpg" />
+									<source srcset="/api/ms/2021/01/w_1500,h_750,c_fill/RZ_Web_COVID_Home-Office_01_final.jpg 1x, ../img/bulletins/header.jpg 2x" />
+									<img
+										class="block-fullscreen__image"
+										title="Homburger Bulletin"
+										alt=""
+										src="../img/bulletins/header.jpg"
+										width="3000"
+										height="2000"
+										loading="lazy"
+									/>
+								</picture>
+							</div>
+
+							<div class="block-fullscreen__content">
+								<div class="grid-margin">
+									<div class="cell small-10 medium-8 large-5">
+										<h3 class="block-fullscreen__title">Covid-Zertifikat <br />am Arbeitsplatz</h3>
+										<div class="bulletin__header__authors">
+											<a href="/de/team/gregor-buhler">Gregor Bühler</a><a href="/de/team/andreas-muller">Andreas Müller</a>
+											<span class="authors__br"><br /></span><a href="/de/team/balz-gross">Balz Gross</a><a href="/de/team/jeremy-reichlin">Jeremy Reichlin</a>
+										</div>
+										<time class="bulletin__header__time">13. September 2021</time>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!--======== SECTION INTRO ========-->
+						<section class="bulletin__intro" id="bulletin__intro">
+							<div class="grid-margin align-center">
+								<div class="cell small-12 medium-10 large-6 xlarge-5">
+									<p class="bulletin__intro__label">Abstract</p>
+									<div class="block-rich-text">
+										<p>
+											Ab heute sind Arbeitgeber berechtigt, von ihren Angestellten das Vorweisen des Covid-Zertifikats zu verlangen, um die nötigen
+											Schutzmassnahmen am Arbeitsplatz umzusetzen. In unserem Bulletin erfahren Sie, welche Rahmenbedingungen dabei zu beachten sind.
+										</p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<div class="read-progress">
+							<div class="read-progress__wrapper"><div class="read-progress__bar" id="progress__bar" style="width: 2.5%"></div></div>
+						</div>
+
+						<!--======== SECTION BULLETIN CONTENT ========-->
+						<section class="bulletin__content" id="bulletin__content">
+							<div class="grid-margin align-center">
+								<div class="cell small-12 medium-10 large-6 xlarge-5">
+									<div class="block-rich-text">
+										<p>
+											Ab heute sind Arbeitgeber berechtigt (aber nicht verpflichtet), von ihren Angestellten das Vorweisen des Covid-Zertifikats zu verlangen
+											und die entsprechenden Informationen zu verarbeiten, wenn dies notwendig ist, um (i) geeignete Schutzmassnahmen festzulegen oder (ii) ein
+											regelmässiges Testkonzept im Unternehmen umzusetzen (Art. 25 Abs. 2bis der
+											<a href="https://www.fedlex.admin.ch/eli/cc/2021/379/de">COVID-19-Verordnung besondere Lage</a>).
+										</p>
+										<p>
+											Gemäss dem
+											<a
+												href="https://www.seco.admin.ch/dam/seco/de/dokumente/Arbeit/Arbeitsbedingungen/Arbeitnehmerschutz/covid19/zertifikat_kurzfassung_covid19.pdf.download.pdf/DE_Das_wichtigste_in_Kuerze_Pruefung_COVID_Zertifikats_im_BetriebArtikel25_Absatz_2bis.pdf"
+											>
+												Leitfaden des Staatssekretariats für Wirtschaft (SECO)
+											</a>
+											müssen Arbeitgeber in der Schweiz, welche die Covid-Zertifikatsprüfungen einführen wollen, folgendes beachten:
+										</p>
+										<ul>
+											<li>
+												<strong>Zweck der Covid-Zertifikatsprüfungen</strong>: Die Covid-Zertifikatsprüfung ist eine der Massnahmen, die der Arbeitgeber
+												einsetzen kann, um die notwendigen Schutzmassnahmen im Rahmen eines unternehmensspezifischen Testkonzepts umzusetzen.
+												Covid-Zertifikatsprüfungen können beispielsweise dazu verwendet werden, um den Zutritt zur Cafeteria oder die Anzahl der Angestellten in
+												Sitzungszimmern zu limitieren, den Kontakt mit Kunden einzuschränken, bestimmte Einschränkungen aufgrund der Büroumgebung durchzusetzen,
+												die Zusammensetzung von Teams zu ändern oder die Pflicht zum Tragen einer Maske am Arbeitsplatz aufzuheben.
+											</li>
+											<li>
+												<strong>Datenschutz</strong>: Alle Zertifikatsprüfungen müssen den allgemeinen Grundsätzen des Datenschutzes, insbesondere dem Grundsatz
+												der Datenminimierung, genügen. Daher können die Arbeitgeber, sofern sie das (Standard-) Covid-Zertifikat nicht benötigen, von den
+												Arbeitnehmern nur die Vorlage des Zertifikats «Light» verlangen, welches keine Gesundheitsdaten enthält.
+											</li>
+											<li>
+												<strong>Angemessene Schutzmassnahmen</strong>: Die Prüfung des Covid-Zertifikats entbindet den Arbeitgeber nicht von der Verpflichtung,
+												angemessene Schutzmassnahmen auf der Grundlage des STOP-Prinzips (d.h. Substitution, Technische Massnahmen, Organisatorische Massnahmen
+												und Persönliche Schutzausrüstung) zu ergreifen. So bleiben die Hygiene-, Lüftungs- und Abstandsregeln etc. nach wie vor in Kraft. Auch
+												Home Office wird weiterhin empfohlen, sofern dies möglich ist.
+											</li>
+											<li>
+												<strong>Information und Anhörung</strong>: Der Arbeitgeber muss seine Arbeitnehmer schriftlich informieren und die Arbeitnehmervertreter
+												oder die Arbeitnehmer (falls es keine Arbeitnehmervertreter gibt) zu seinem Vorhaben, Covid-Zertifikatsprüfungen einzuführen, und zu den
+												Massnahmen, die sich aus diesen Prüfungen ergeben, anhören. Unseres Erachtens beinhaltet der Konsultationsprozess das Recht der
+												Arbeitnehmer, zu den geplanten Massnahmen Stellung zu nehmen und alternative Vorschläge zu machen sowie über die Entscheidung des
+												Arbeitgebers informiert zu werden.
+											</li>
+										</ul>
+										<p>
+											Wenn die oben genannten Leitlinien eingehalten werden und der Arbeitgeber die Kosten für allfällige Covid-Tests der Arbeitnehmer
+											übernimmt, können die Arbeitgeber ihre Arbeitnehmer auffordern, ihre Covid-Zertifikate («Light») vorzulegen und zur Arbeit ins Büro
+											zurückzukehren. Kommen die Arbeitnehmer dieser Aufforderung nicht nach, kann dies nach unserer Ansicht zu Disziplinarmassnahmen führen.
+											Vorbehalten bleiben Sonderregelungen für besonders gefährdete Arbeitnehmer.
+										</p>
+									</div>
+
+									<div class="bulletin__share">
+										<ul class="share">
+											<li class="share__mail">
+												<a
+													href="mailto:?subject=Homburger%20Bulletins&amp;body=https%3A%2F%2Fwww.homburger.ch%2Fde%2Finsights%2Fcovid-zertifikat-am-arbeitsplatz"
+													target="_blank"
+													rel="noreferrer"
+													title="Share via Mail"
+												>
+													<svg xmlns="http://www.w3.org/2000/svg" width="24.207" height="24.207" viewBox="0 0 24.207 24.207">
+														<g id="Homburger_Web_Icon_Mail" transform="translate(-1.5 -1.293)">
+															<line id="Line_74" data-name="Line 74" x1="12.65" y2="12.65" transform="translate(12.35 2)" fill="none"></line>
+															<path id="Path_7067" data-name="Path 7067" d="M25,2,16.95,25l-4.6-10.35L2,10.05Z" transform="translate(0 0)" fill="none"></path>
+														</g>
+													</svg>
+												</a>
+											</li>
+
+											<li class="share__linked-in">
+												<a
+													href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.homburger.ch/de/insights/covid-zertifikat-am-arbeitsplatz"
+													target="_blank"
+													rel="noreferrer"
+													title="Share on LinkedIn"
+												>
+													<svg id="Homburger_Web_Icon_LinkedIn" xmlns="http://www.w3.org/2000/svg" width="18.747" height="18" viewBox="0 0 18.747 18">
+														<path
+															id="made_linkedin"
+															d="M11.24,8.5a2.051,2.051,0,0,1,2.24,2.074,2.1,2.1,0,0,1-2.24,2.074h0A2.05,2.05,0,0,1,9,10.574,2.1,2.1,0,0,1,11.24,8.5ZM23.1,14.058c2.654,0,4.645,1.742,4.645,5.475V26.5H23.765V20.03c0-1.659-.581-2.737-2.074-2.737a2.28,2.28,0,0,0-2.074,1.493,3.094,3.094,0,0,0-.166,1V26.5H15.47s.083-10.949,0-12.111h3.982v1.742a4.048,4.048,0,0,1,3.65-2.074Zm-13.853.332H13.23V26.5H9.249V14.389Z"
+															transform="translate(-9 -8.5)"
+														></path>
+													</svg>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!--======== SECTION BLOCK MEET ========-->
+						<section class="block-meet">
+							<div class="grid-margin align-center">
+								<div class="block-meet__text cell small-10 medium-6 large-4 large-offset-1">
+									<p class="text-center">Falls Sie Fragen zu diesem Bulletin haben, wenden Sie sich bitte an Ihre Homburger Kontaktperson oder an:</p>
+								</div>
+
+								<div class="cell small-12 medium-6 large-4 large-offset-1">
+									<div class="block-meet__persons">
+										<div class="person">
+											<a href="/de/team/gregor-buhler">
+												<div class="person__link">
+													<div class="person__image">
+														<img
+															class=""
+															title="Gregor Buehler"
+															alt=""
+															src="https://cms.homburger.ch/wp-content/uploads/2020/09/Gregor_Buehler_web_21_05_sRGB_1123.jpg"
+															width="3000"
+															height="3000"
+															loading="lazy"
+														/>
+													</div>
+													<header class="person__content">
+														<div class="person__title">
+															Gregor <span class="person__breaker"><br /></span> Bühler
+														</div>
+														<div class="person__position">Partner</div>
+													</header>
+												</div>
+											</a>
+										</div>
+
+										<div class="person">
+											<a href="/de/team/andreas-muller">
+												<div class="person__link">
+													<div class="person__image">
+														<img
+															class=""
+															title="Andreas Mueller"
+															alt=""
+															src="https://cms.homburger.ch/wp-content/uploads/2020/09/Andreas_Mueller_web_21_05_sRGB_rgb_0192.jpg"
+															width="3000"
+															height="3000"
+															loading="lazy"
+														/>
+													</div>
+													<header class="person__content">
+														<div class="person__title">
+															Andreas <span class="person__breaker"><br /></span> Müller
+														</div>
+														<div class="person__position">Partner</div>
+													</header>
+												</div>
+											</a>
+										</div>
+
+										<div class="person">
+											<a href="/de/team/balz-gross">
+												<div class="person__link">
+													<div class="person__image">
+														<img
+															class=""
+															title="Balz Gross"
+															alt=""
+															src="https://cms.homburger.ch/wp-content/uploads/2020/10/Balz_Gross_eci_WEB_20-7-207696-Kopie.jpg"
+															width="1000"
+															height="1000"
+															loading="lazy"
+														/>
+													</div>
+													<header class="person__content">
+														<div class="person__title">
+															Balz <span class="person__breaker"><br /></span> Gross
+														</div>
+														<div class="person__position">Partner</div>
+													</header>
+												</div>
+											</a>
+										</div>
+
+										<div class="person">
+											<a href="/de/team/jeremy-reichlin">
+												<div class="person__link">
+													<div class="person__image">
+														<img
+															class=""
+															title="Jeremy Reichlin"
+															alt=""
+															src="https://cms.homburger.ch/wp-content/uploads/2020/09/Jeremy_Reichlin_sRGB_Web_17_05_0615.jpg"
+															width="1000"
+															height="1000"
+															loading="lazy"
+														/>
+													</div>
+													<header class="person__content">
+														<div class="person__title">
+															Jeremy <span class="person__breaker"><br /></span> Reichlin
+														</div>
+														<div class="person__position">Associate</div>
+													</header>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!--======== SECTION BULLETIN LEGAL ========-->
+						<section class="bulletin__legal">
+							<div class="grid-margin align-center">
+								<div class="cell small-12 medium-10 large-6 xlarge-5">
+									<div class="block-rich-text">
+										<p><strong>Rechtlicher Hinweis</strong></p>
+										<p>
+											<em
+												>Dieses Homburger Bulletin gibt allgemeine Ansichten der Autorinnen und Autoren zum Zeitpunkt dieses Bulletins wieder, ohne dabei
+												konkrete Fakten oder Umstände einer bestimmten Person oder Transaktion zu berücksichtigen. Es stellt keine Rechtsberatung dar. Das
+												Bulletin darf von niemandem als Grundlage verwendet werden, gleichgültig für welchen Zweck. Jede Haftung für die Genauigkeit,
+												Richtigkeit oder Angemessenheit der Inhalte dieses Homburger Bulletins ist ausdrücklich ausgeschlossen.
+											</em>
+										</p>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</main>
+
+				<!--======== FOOTER ========-->
+				<footer class="footer">
+					<div class="footer__top grid-margin">
+						<div class="cell small-6">
+							<nav>
+								<ul class="footer__menu">
+									<li><a href="/de/aktuell">Aktuell</a></li>
+									<li><a href="/de/rankings-awards">Rankings &amp; Awards</a></li>
+									<li><a href="/de/alumni">Alumni</a></li>
+									<li><a href="/de/kontakt">Kontakt</a></li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="footer__contact cell small-6">
+							<p>
+								<a href="tel:+41 43 222 10 00" target="_blank" rel="noreferrer">+41 43 222 10 00</a><br /><a
+									href="mailto:lawyers@homburger.ch"
+									target="_blank"
+									rel="noreferrer"
+									>lawyers@homburger.ch</a
+								><br />
+								<a href="https://www.homburger.ch/de/newsletter-anmeldung/" target="">Newsletter</a><br /><a
+									href="https://ch.linkedin.com/company/homburger"
+									target="_blank"
+									rel="noreferrer"
+									>LinkedIn</a
+								><br />
+							</p>
+							<address class="">
+								Homburger AG<br />
+								Prime Tower<br />
+								Hardstrasse 201<br />
+								8005 Zürich
+							</address>
+							<p><a href="https://www.google.com/maps/search/?api=1&amp;query=Homburger+AG" target="_blank" rel="noreferrer">Karte</a><br /></p>
+						</div>
+					</div>
+
+					<div class="footer__bottom grid-margin">
+						<div class="cell">
+							<ul class="footer__submenu">
+								<li><a href="/de/haftungsausschluss">Haftungsausschluss</a></li>
+								<li><a href="/de/datenschutz">Datenschutzerklärung</a></li>
+							</ul>
+						</div>
+
+						<div class="cell small-shrink">
+							<div class="footer__logo">
+								<a href="/de">
+									<svg version="1.1" viewBox="0 0 41 46.662">
+										<defs>
+											<linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+												<stop offset="0%" style="stop-color: rgb(215, 215, 215); stop-opacity: 1"></stop>
+												<stop offset="100%" style="stop-color: rgba(215, 215, 215, 0); stop-opacity: 1"></stop>
+											</linearGradient>
+										</defs>
+										<path d="M29.2,0V16.821H11.8V0H0V46.662H11.8V28.409H29.2V46.662H41V0Z"></path>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+
+		<script src="../js/main.js"></script>
+	</body>
+</html>
