@@ -14,26 +14,3 @@ navigationHamburger.addEventListener('click', () => {
 		logo.classList.remove('logo--white');
 	}
 });
-
-/*==================== SCROLL INDICATPR ====================*/
-const progressBar = document.getElementById('progress__bar');
-const bulletinIntro = document.getElementById('bulletin__intro');
-
-function scrollActive() {
-	const scrollY = window.pageYOffset;
-
-	const progressBarHeight = bulletinIntro.offsetHeight;
-	const progressBarTop = bulletinIntro.offsetTop;
-
-	if (scrollY > progressBarTop + progressBarHeight) {
-		progressBar.style.width = scrollY - progressBarTop - progressBarHeight + 'px';
-	}
-}
-
-let URLactual = window.location.href;
-let splitRoutes = URLactual.split('/');
-let pageBulletin = splitRoutes[splitRoutes.length - 1];
-
-if (pageBulletin === 'bulletins.html') {
-	window.addEventListener('scroll', scrollActive);
-}
