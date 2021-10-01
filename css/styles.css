@@ -5590,9 +5590,12 @@ input[type='checkbox'] {
 	width: 100%;
 }
 
+.landing-title_contact.bulletins__title {
+	margin-bottom: var(--spacing-s);
+}
+
 .bulletins .contacto__form {
-	width: 65%;
-	padding: 20px;
+	width: 90%;
 }
 
 .bulletins .contacto__form .contacto__row {
@@ -5712,6 +5715,11 @@ input[type='checkbox'] {
 	color: #fff;
 	font-size: 18px;
 	border-radius: 4px;
+	transition: 0.3s ease-in all;
+}
+
+.bulletins .contacto__form .contacto__row .contacto__row-col input[type='submit']:hover {
+	background: var(--button-hover-color);
 }
 
 @media (max-width: 566px) {
